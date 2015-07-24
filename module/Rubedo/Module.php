@@ -281,7 +281,7 @@ class Module
         // @todo forward if no language initialized
 
         // check access
-        if ($controller && strpos($controller, 'RubedoApi') === false) {
+        if ($controller && strpos($controller, 'RubedoApi') === false && strpos($controller, 'Inovia\DumpRestore\Controller\DumpRestore') === false) {
             list ($applicationName, $moduleName, $constant, $controllerName) = explode('\\', $controller);
             unset($applicationName, $constant);
             $controllerName = strtolower($controllerName);

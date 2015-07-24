@@ -60,6 +60,7 @@ return array(
         'Rubedo',
         'RubedoAPI',
         'ZendDeveloperTools',
+        'Inovia',
     ), $extensionsArray),
     'module_listener_options' => array(
         'config_cache_enabled' => true,
